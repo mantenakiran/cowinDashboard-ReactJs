@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.website-logo-container {
+  display: flex;
+
+  width: 80%;
+}
+.website-logo {
+  height: 60px;
+  align-self: center;
+  margin-right: 15px;
+}
+.cowin-text {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  font-size: 30px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+}
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image {
+  width: 50%;
+}
+.failure-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+}
